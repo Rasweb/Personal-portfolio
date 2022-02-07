@@ -5,6 +5,9 @@ header {
   @include mixins.flex-c;
   align-items: stretch;
   justify-content: space-between;
+  @include mixins.ipad() {
+    height: 75vh;
+  }
 }
 
 nav {
