@@ -1,3 +1,126 @@
+header {
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+}
 
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 1s;
+}
+
+.hamburgerCont {
+  transition: 0.3s;
+  align-self: flex-end;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #1f2123;
+}
+@media screen and (min-width: 786px) {
+  .hamburgerCont {
+    display: none;
+  }
+}
+
+#toggle {
+  display: none;
+}
+
+#toggle:checked + nav .navLinks {
+  visibility: visible;
+  opacity: 1;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: 15px;
+  padding: 0;
+  gap: 0;
+  height: 25px;
+  width: 30px;
+  justify-content: space-between;
+}
+
+.nav {
+  box-sizing: border-box;
+  height: 4px;
+  background-color: white;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.navLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 5px 0;
+  gap: 0;
+  background-color: #333;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+  width: 100%;
+}
+@media screen and (min-width: 786px) {
+  .navLinks {
+    flex-direction: row;
+    align-items: stretch;
+    padding: 30px;
+    gap: 40px;
+    visibility: visible;
+    opacity: 1;
+    align-self: stretch;
+    justify-content: right;
+    font-size: 1rem;
+    width: auto;
+  }
+}
+
+.navLinks a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.navLinks a:hover {
+  text-decoration: underline;
+}
+
+.more {
+  background-color: #181a1b;
+  padding: 0.1rem 6rem;
+}
+.more h2 {
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.more p {
+  text-align: center;
+  line-height: 1.7rem;
+}
+@media screen and (min-width: 786px) {
+  .more p {
+    width: 50%;
+    margin-left: 25%;
+    font-size: 1.2rem;
+  }
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  background-color: #181a1b;
+  color: white;
+}
 
 /*# sourceMappingURL=style.css.map */

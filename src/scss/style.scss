@@ -1,0 +1,13 @@
+@use "mixins";
+@use "header";
+@use "main";
+@use "footer";
+
+html,
+body {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(24, 26, 27);
+  color: white;
+}

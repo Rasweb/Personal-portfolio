@@ -1,0 +1,107 @@
+@use "mixins";
+
+header {
+  height: 110vh;
+  @include mixins.flex-c;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+nav {
+  @include mixins.flex-c;
+  align-items: center;
+  transition: 1s;
+}
+
+.hamburgerCont {
+  transition: 0.3s;
+  align-self: flex-end;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(31, 33, 35);
+  @include mixins.ipad() {
+    display: none;
+  }
+}
+
+#toggle {
+  display: none;
+}
+
+#toggle:checked + nav .navLinks {
+  visibility: visible;
+  opacity: 1;
+}
+
+.hamburger {
+  @include mixins.flex-c;
+  align-items: stretch;
+  margin: 15px;
+  padding: 0;
+  gap: 0;
+  height: 25px;
+  width: 30px;
+  justify-content: space-between;
+}
+
+.nav {
+  box-sizing: border-box;
+  height: 4px;
+  background-color: white;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.navLinks {
+  @include mixins.flex-c;
+  align-items: center;
+  margin: 0;
+  padding: 5px 0;
+  gap: 0;
+  background-color: #333;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+  width: 100%;
+  @include mixins.ipad() {
+    flex-direction: row;
+    align-items: stretch;
+    padding: 30px;
+    gap: 40px;
+    visibility: visible;
+    opacity: 1;
+    align-self: stretch;
+    justify-content: right;
+    font-size: 1rem;
+    width: auto;
+  }
+}
+
+.navLinks a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.navLinks a:hover {
+  text-decoration: underline;
+}
+
+.more {
+  background-color: rgb(24, 26, 27);
+  padding: 0.1rem 6rem;
+  h2 {
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+    line-height: 1.7rem;
+    @include mixins.ipad() {
+      width: 50%;
+      margin-left: 25%;
+      font-size: 1.2rem;
+    }
+  }
+}

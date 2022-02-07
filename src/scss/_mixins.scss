@@ -1,0 +1,15 @@
+@mixin flex-c {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin flex-r {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin ipad() {
+  @media screen and (min-width: 786px) {
+    @content;
+  }
+}
