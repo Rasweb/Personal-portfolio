@@ -156,6 +156,44 @@ main ul li .proText a {
   color: #dddddd;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  background-color: #303841;
+  font-size: 1.2rem;
+}
+footer .fas {
+  color: white;
+  font-size: 1.6rem;
+}
+footer .contactText {
+  box-sizing: border-box;
+}
+footer .iconsCont {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+  box-sizing: inherit;
+}
+footer .iconsCont .btn {
+  display: inline-block;
+}
+footer .iconsCont a {
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+}
+footer .iconsCont .fab {
+  font-size: 1.8rem;
+}
+
 html,
 body {
   scroll-behavior: smooth;
