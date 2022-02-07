@@ -1,0 +1,42 @@
+@use "mixins";
+
+main {
+  h1 {
+    text-align: center;
+    border-top: 1px solid rgb(72, 78, 81);
+  }
+  ul {
+    list-style: none;
+    @include mixins.flex-c;
+    li {
+      width: 95%;
+      text-align: center;
+      h3 {
+        text-align: center;
+        @include mixins.ipad() {
+          margin-left: 35px;
+          font-size: 1.6rem;
+        }
+      }
+      div {
+        img {
+          width: 60%;
+        }
+      }
+      .proText {
+        background-color: rgb(72, 78, 81);
+        padding: 1em;
+        font-size: 1em;
+        margin: 20px;
+        @include mixins.ipad() {
+          width: 58%;
+          margin-left: 20%;
+          font-size: 1.2rem;
+        }
+        a {
+          color: rgb(221, 221, 221);
+        }
+      }
+    }
+  }
+}

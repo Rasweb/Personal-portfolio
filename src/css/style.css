@@ -114,6 +114,48 @@ nav {
   }
 }
 
+main h1 {
+  text-align: center;
+  border-top: 1px solid #484e51;
+}
+main ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+main ul li {
+  width: 95%;
+  text-align: center;
+}
+main ul li h3 {
+  text-align: center;
+}
+@media screen and (min-width: 786px) {
+  main ul li h3 {
+    margin-left: 35px;
+    font-size: 1.6rem;
+  }
+}
+main ul li div img {
+  width: 60%;
+}
+main ul li .proText {
+  background-color: #484e51;
+  padding: 1em;
+  font-size: 1em;
+  margin: 20px;
+}
+@media screen and (min-width: 786px) {
+  main ul li .proText {
+    width: 58%;
+    margin-left: 20%;
+    font-size: 1.2rem;
+  }
+}
+main ul li .proText a {
+  color: #dddddd;
+}
+
 html,
 body {
   scroll-behavior: smooth;
