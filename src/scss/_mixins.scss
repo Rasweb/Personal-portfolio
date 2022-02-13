@@ -8,8 +8,23 @@
   flex-direction: row;
 }
 
+// Tables
 @mixin ipad() {
   @media screen and (min-width: 786px) {
+    @content;
+  }
+}
+
+// Laptops
+@mixin laptop() {
+  @media screen and (min-width: 992px) {
+    @content;
+  }
+}
+
+// large desktops
+@mixin desktop() {
+  @media screen and (min-width: 1200px) {
     @content;
   }
 }

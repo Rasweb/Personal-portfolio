@@ -83,6 +83,13 @@ nav {
     width: auto;
   }
 }
+@media screen and (min-width: 992px) {
+  .navLinks {
+    padding: 40px;
+    gap: 50px;
+    font-size: 1.4rem;
+  }
+}
 
 .navLinks a {
   color: white;
