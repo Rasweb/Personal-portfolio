@@ -11,6 +11,9 @@ header {
   @include mixins.laptop() {
     height: 60vh;
   }
+  @include mixins.desktop() {
+    height: 90vh;
+  }
 }
 
 nav {
@@ -87,12 +90,19 @@ nav {
     gap: 50px;
     font-size: 1.4rem;
   }
+  @include mixins.desktop() {
+    padding: 45px;
+    gap: 60px;
+  }
 }
 
 .navLinks a {
   color: white;
   text-decoration: none;
   font-size: 1.4rem;
+  @include mixins.desktop() {
+    font-size: 1.8rem;
+  }
 }
 
 .navLinks a:hover {
@@ -118,6 +128,11 @@ nav {
       width: 70%;
       margin-left: 14%;
       font-size: 1.4rem;
+    }
+    @include mixins.desktop() {
+      width: 68%;
+      margin-left: 16%;
+      font-size: 1.8rem;
     }
   }
 }

@@ -17,6 +17,10 @@ footer {
     height: 50vh;
     font-size: 1.6rem;
   }
+  @include mixins.desktop() {
+    height: 60vh;
+    font-size: 1.8rem;
+  }
 
   .fas {
     color: white;
@@ -26,6 +30,9 @@ footer {
     }
     @include mixins.laptop() {
       font-size: 2rem;
+    }
+    @include mixins.desktop() {
+      font-size: 2.2rem;
     }
   }
   .contactText {
@@ -52,6 +59,9 @@ footer {
         font-size: 2rem;
       }
       @include mixins.laptop() {
+        font-size: 2.2rem;
+      }
+      @include mixins.desktop() {
         font-size: 2.2rem;
       }
     }
