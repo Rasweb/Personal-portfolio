@@ -204,9 +204,20 @@ footer {
   background-color: #303841;
   font-size: 1.2rem;
 }
+@media screen and (min-width: 992px) {
+  footer {
+    height: 50vh;
+    font-size: 1.6rem;
+  }
+}
 footer .fas {
   color: white;
   font-size: 1.6rem;
+}
+@media screen and (min-width: 992px) {
+  footer .fas {
+    font-size: 2rem;
+  }
 }
 footer .contactText {
   box-sizing: border-box;
@@ -229,6 +240,11 @@ footer .iconsCont a {
 }
 footer .iconsCont .fab {
   font-size: 1.8rem;
+}
+@media screen and (min-width: 992px) {
+  footer .iconsCont .fab {
+    font-size: 2.2rem;
+  }
 }
 
 html,
