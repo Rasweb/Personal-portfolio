@@ -10,6 +10,11 @@ header {
     height: 75vh;
   }
 }
+@media screen and (min-width: 992px) {
+  header {
+    height: 60vh;
+  }
+}
 
 nav {
   display: flex;
@@ -125,6 +130,13 @@ nav {
     font-size: 1.2rem;
   }
 }
+@media screen and (min-width: 992px) {
+  .more p {
+    width: 70%;
+    margin-left: 14%;
+    font-size: 1.4rem;
+  }
+}
 
 main h1 {
   text-align: center;
@@ -148,6 +160,12 @@ main ul li h3 {
     font-size: 1.6rem;
   }
 }
+@media screen and (min-width: 992px) {
+  main ul li h3 {
+    margin-left: 30px;
+    font-size: 1.8rem;
+  }
+}
 main ul li div img {
   width: 60%;
 }
@@ -162,6 +180,13 @@ main ul li .proText {
     width: 58%;
     margin-left: 20%;
     font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  main ul li .proText {
+    width: 56%;
+    margin-left: 20%;
+    font-size: 1.4rem;
   }
 }
 main ul li .proText a {

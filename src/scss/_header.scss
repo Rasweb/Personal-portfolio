@@ -8,6 +8,9 @@ header {
   @include mixins.ipad() {
     height: 75vh;
   }
+  @include mixins.laptop() {
+    height: 60vh;
+  }
 }
 
 nav {
@@ -110,6 +113,11 @@ nav {
       width: 50%;
       margin-left: 25%;
       font-size: 1.2rem;
+    }
+    @include mixins.laptop() {
+      width: 70%;
+      margin-left: 14%;
+      font-size: 1.4rem;
     }
   }
 }

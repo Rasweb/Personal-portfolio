@@ -17,6 +17,10 @@ main {
           margin-left: 35px;
           font-size: 1.6rem;
         }
+        @include mixins.laptop() {
+          margin-left: 30px;
+          font-size: 1.8rem;
+        }
       }
       div {
         img {
@@ -32,6 +36,11 @@ main {
           width: 58%;
           margin-left: 20%;
           font-size: 1.2rem;
+        }
+        @include mixins.laptop() {
+          width: 56%;
+          margin-left: 20%;
+          font-size: 1.4rem;
         }
         a {
           color: rgb(221, 221, 221);
