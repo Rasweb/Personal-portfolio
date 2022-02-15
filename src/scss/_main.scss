@@ -14,7 +14,7 @@ main {
       h3 {
         text-align: center;
         @include mixins.ipad() {
-          margin-left: 35px;
+          margin-left: 20px;
           font-size: 1.6rem;
         }
         @include mixins.laptop() {
@@ -33,7 +33,7 @@ main {
         font-size: 1em;
         margin: 20px;
         @include mixins.ipad() {
-          width: 58%;
+          width: 55%;
           margin-left: 20%;
           font-size: 1.2rem;
         }
@@ -47,5 +47,9 @@ main {
         }
       }
     }
+  }
+
+  img {
+    border: 1px solid white;
   }
 }

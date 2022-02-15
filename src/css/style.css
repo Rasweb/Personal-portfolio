@@ -7,7 +7,7 @@ header {
 }
 @media screen and (min-width: 786px) {
   header {
-    height: 75vh;
+    height: 65vh;
   }
 }
 @media screen and (min-width: 992px) {
@@ -125,9 +125,9 @@ nav {
 }
 @media screen and (min-width: 786px) {
   .more p {
-    width: 50%;
-    margin-left: 25%;
-    font-size: 1.2rem;
+    width: 66%;
+    margin-left: 17%;
+    font-size: 1.3rem;
   }
 }
 @media screen and (min-width: 992px) {
@@ -156,7 +156,7 @@ main ul li h3 {
 }
 @media screen and (min-width: 786px) {
   main ul li h3 {
-    margin-left: 35px;
+    margin-left: 20px;
     font-size: 1.6rem;
   }
 }
@@ -177,7 +177,7 @@ main ul li .proText {
 }
 @media screen and (min-width: 786px) {
   main ul li .proText {
-    width: 58%;
+    width: 55%;
     margin-left: 20%;
     font-size: 1.2rem;
   }
@@ -192,6 +192,9 @@ main ul li .proText {
 main ul li .proText a {
   color: #dddddd;
 }
+main img {
+  border: 1px solid white;
+}
 
 footer {
   display: flex;
@@ -204,6 +207,12 @@ footer {
   background-color: #303841;
   font-size: 1.2rem;
 }
+@media screen and (min-width: 786px) {
+  footer {
+    height: 40vh;
+    font-size: 1.4rem;
+  }
+}
 @media screen and (min-width: 992px) {
   footer {
     height: 50vh;
@@ -213,6 +222,11 @@ footer {
 footer .fas {
   color: white;
   font-size: 1.6rem;
+}
+@media screen and (min-width: 786px) {
+  footer .fas {
+    font-size: 1.8rem;
+  }
 }
 @media screen and (min-width: 992px) {
   footer .fas {
@@ -240,6 +254,11 @@ footer .iconsCont a {
 }
 footer .iconsCont .fab {
   font-size: 1.8rem;
+}
+@media screen and (min-width: 786px) {
+  footer .iconsCont .fab {
+    font-size: 2rem;
+  }
 }
 @media screen and (min-width: 992px) {
   footer .iconsCont .fab {
