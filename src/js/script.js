@@ -4,12 +4,21 @@ window.onload = () => {
   // createHTML;
   document
     .getElementById("toggleDarkLight")
-    .addEventListener("click", darkModeToggle);
+    .addEventListener("click", darkLightToggle);
 };
 
-function darkModeToggle() {
-  let element = document.getElementById("home");
-  element.classList.toggle("darkMode");
+function darkLightToggle() {
+  const bodySwitch = document.querySelector("body");
+  bodySwitch.classList.toggle("ligth");
+
+  const headerSwitch = document.querySelector("header");
+  headerSwitch.classList.toggle("lightheader");
+
+  const mainSwitch = document.querySelector("main");
+  mainSwitch.classList.toggle("lightMode");
+
+  const footerSwitch = document.querySelector("footer");
+  footerSwitch.classList.toggle("Lightfooter");
 }
 
 // let pro1 = new Projects(

@@ -1,5 +1,7 @@
 @use "mixins";
 
+@include mixins.headerDarkLight;
+
 header {
   height: 110vh;
   @include mixins.flex-c;

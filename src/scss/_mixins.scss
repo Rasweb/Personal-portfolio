@@ -8,6 +8,48 @@
   flex-direction: row;
 }
 
+@mixin mainDarkLight {
+  .lightMode {
+    .proText {
+      background-color: lightgray;
+      a {
+        color: darkslategray;
+      }
+    }
+  }
+}
+
+@mixin headerDarkLight {
+  .lightheader {
+    .navLinks {
+      background-color: grey;
+    }
+    header {
+      .hamburgerCont {
+        background-color: lightgray;
+        .nav {
+          background-color: black;
+        }
+      }
+    }
+    .more {
+      background-color: white;
+    }
+  }
+}
+
+@mixin footerDarkLight {
+  .Lightfooter {
+    background-color: lightgray;
+    .iconsCont a {
+      color: black;
+    }
+    .fas {
+      color: black;
+    }
+  }
+}
+
 // Tables
 @mixin ipad() {
   @media screen and (min-width: 786px) {

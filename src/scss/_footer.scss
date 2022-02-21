@@ -1,4 +1,5 @@
 @use "mixins";
+@include mixins.footerDarkLight;
 
 footer {
   @include mixins.flex-c;

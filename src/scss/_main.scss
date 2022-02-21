@@ -1,5 +1,7 @@
 @use "mixins";
 
+@include mixins.mainDarkLight;
+
 main {
   img {
     border: 1px solid white;
