@@ -231,18 +231,6 @@ main ul li .proText a {
   color: #dddddd;
 }
 
-#home {
-  padding: 25px;
-  background-color: white;
-  color: black;
-  font-size: 25px;
-}
-
-.darkmode {
-  background-color: black;
-  color: white;
-}
-
 footer {
   display: flex;
   flex-direction: column;
@@ -335,6 +323,18 @@ body {
   margin: 0;
   padding: 0;
   background-color: #181a1b;
+  color: white;
+}
+
+section {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.darkMode {
+  background-color: black;
   color: white;
 }
 
