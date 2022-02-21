@@ -16,6 +16,9 @@ header {
   @include mixins.desktop() {
     height: 90vh;
   }
+  #toggleDarkLight {
+    text-align: center;
+  }
 }
 
 nav {

@@ -33,6 +33,9 @@ header {
     height: 90vh;
   }
 }
+header #toggleDarkLight {
+  text-align: center;
+}
 
 nav {
   display: flex;
