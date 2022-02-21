@@ -231,6 +231,18 @@ main ul li .proText a {
   color: #dddddd;
 }
 
+#home {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.darkmode {
+  background-color: black;
+  color: white;
+}
+
 footer {
   display: flex;
   flex-direction: column;
