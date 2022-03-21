@@ -96,6 +96,7 @@ function createHtml() {
 
     imageCont.appendChild(image);
     pCont.appendChild(p);
+    pCont.appendChild(a);
     li.appendChild(h3);
     li.appendChild(imageCont);
     li.appendChild(pCont);
