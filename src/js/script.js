@@ -52,11 +52,11 @@ let project3 = new Projects(
 );
 
 let project4 = new Projects(
-  "HTML & CSS group assignment",
-  "/src/images/ettLitetHem.png",
-  "A website created using Bootstrap.",
-  "This is a group assignment with 2 other people, it was created with the help of Bootstrap, Sass and Gulp. I created the Contact(Kontakt) page and the about(Om) page.",
-  "https://github.com/FannyRosen/ettlitethem.git"
+  "Rating app with Js and Sass/scss",
+  "/src/images/RatingState.png",
+  "A Rating site using Js and Sass.",
+  "This is a challenge from FrontendMentor.io It's a simple rating app using JavaScript and Sass. ",
+  "https://github.com/Rasweb/Frontend_Mentor-Interactive-rating-component.git"
 );
 
 let project5 = new Projects(
