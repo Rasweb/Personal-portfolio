@@ -48,7 +48,7 @@ let project3 = new Projects(
   "/src/images/HomeGrownRecords.png",
   "A fictional music shop using objects",
   " This is a group assignment with two other students, I created the forms and their properties and also the testing for the site using cypress.",
-  "https://github.com/ViggoOhlsson/Project_Butik.git"
+  "https://github.com/Rasweb/Project_Butik.git"
 );
 
 let project4 = new Projects(
