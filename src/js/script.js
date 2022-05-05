@@ -21,12 +21,6 @@ function darkLightToggle() {
   footerSwitch.classList.toggle("Lightfooter");
 }
 
-//     this.title = title;
-//     this.image = image;
-//     this.imageAlt = imageAlt;
-//     this.description = description;
-//     this.link = link;
-
 let project1 = new Projects(
   "Clone website",
   "/src/images/CloneWebsite.png",
@@ -39,7 +33,7 @@ let project2 = new Projects(
   "Vue3 To-Do List",
   "/src/images/VueJsTodo.png",
   "A to-do list with Vue3",
-  "This is a Vue3, built using typescript, scss/sass and single file component.",
+  "This is a Vue3 project, built using typescript, scss/sass and single file component.",
   "https://github.com/Rasweb/Vue3-To-Do"
 );
 
