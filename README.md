@@ -1,7 +1,7 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [To Do project](#to-do-project)
+  - [Personal Portfolio](#personal-portfolio)
   - [Project setup](#project-setup)
   - [Screenshot](#screenshot)
   - [Author](#author)
