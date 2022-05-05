@@ -37,10 +37,10 @@ let project1 = new Projects(
 
 let project2 = new Projects(
   "To-Do List",
-  "/src/images/ToDo.png",
-  "A to-do list with localstorage.",
-  "This is a javaScript to-do list with localStorage. It's also the first javaScript project I've ever done.",
-  "https://github.com/Rasweb/JavaScript-BasicCourse-Assignment1.git"
+  "/src/images/VueJsTodo.png",
+  "A to-do list with Vue3",
+  "This is a Vue3, built using typescript, scss/sass and single file component.",
+  "https://github.com/Rasweb/Vue3-To-Do"
 );
 
 let project3 = new Projects(
