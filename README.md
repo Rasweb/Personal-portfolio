@@ -10,13 +10,13 @@
 
 ### Personal Portfolio
 
-Welcome to my old personal Portfolio. This project was built with Sass/scss and JavaScript.
+Welcome to my first personal Portfolio. This project was built with Sass/scss and JavaScript.
 
 The projects are dynamically generated, using Class and Objects with JavaScript.
 
 The class is created using a constructor with these parameters: title, image, imageAlt, description and link.
 
-The objects are in an Array of Objects so it can easily be accessed an configured.
+The objects are in an Array of Objects so it can easily be accessed and configured.
 
 ## Project setup
 
@@ -37,5 +37,3 @@ npm run sass
 ### Author
 
 [Github](https://github.com/Rasweb)
-
-[Website](https://rasweb.one/)
